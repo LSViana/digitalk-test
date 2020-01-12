@@ -1,0 +1,8 @@
+.page-list {
+  padding: calc(1vw + 1rem);
+  display: grid;
+  grid-auto-flow: row;
+  justify-content: stretch;
+}
+
+/*# sourceMappingURL=index.css.map */

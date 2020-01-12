@@ -4,12 +4,21 @@ import RedRoundedButton from '../../assets/vectors/red-rounded-button.svg';
 import GreenRoundedButton from '../../assets/vectors/green-rounded-button.svg';
 import YellowRoundedButton from '../../assets/vectors/yellow-rounded-button.svg';
 import BackgroundDecorationLine from '../../assets/vectors/background-decoration-line.svg';
+import PokeballSolidBlack from '../../assets/vectors/pokeball-solid-black.svg';
 import './index.scss';
+import SearchInput from "../../components/SearchInput";
 
 class PokedexLayout extends React.Component {
+    state = {
+        searchText: ''
+    };
+
     render() {
         return (
             <div className='pokedex-layout'>
+                <div className="background-pokeball">
+                    <img  src={PokeballSolidBlack} aria-hidden='true' alt='' />
+                </div>
                 <nav>
                     <div className="pokemon-buttons">
                         <img className='blue-sensor' src={BlueSensor} alt="Pokémon's blue sensor" />
@@ -20,17 +29,31 @@ class PokedexLayout extends React.Component {
                     <div className="pokedex-title">
                         <h1><span>Pokédex</span> with React.js</h1>
                     </div>
-                    <div>
-                        @search
-                    </div>
+                    <SearchInput
+                        value={this.state.searchText}
+                        onChange={this.onSearchTextChange}
+                        onSearch={this.onSearchClick}
+                        className={['a']} placeholder='Search Pokémons'
+                    />
                 </nav>
                 <div className="background-decoration">
-                    <img className='decoration-line' src={BackgroundDecorationLine} aria-hidden='true' />
+                    <img src={BackgroundDecorationLine} aria-hidden='true' alt='' />
                 </div>
                 {this.props.children}
             </div>
         );
     }
+
+    onSearchTextChange = (e) => {
+        const searchText = e.target.value;
+        this.setState({
+            searchText,
+        });
+    };
+
+    onSearchClick = () => {
+        console.log('Search triggered');
+    };
 }
 
 export default PokedexLayout;

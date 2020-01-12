@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="38" height="77" viewBox="0 0 38 77">
+  <g id="left-marker" transform="translate(38) rotate(90)" fill="#f5cc04">
+    <path d="M 73.34494781494141 36.5 L 3.65505051612854 36.5 L 38.5 2.107582330703735 L 73.34494781494141 36.5 Z" stroke="none"/>
+    <path d="M 38.5 4.215179443359375 L 7.31011962890625 35 L 69.68988037109375 35 L 38.5 4.215179443359375 M 38.5 0 L 77 38 L 0 38 L 38.5 0 Z" stroke="none" fill="#010000"/>
+  </g>
+</svg>

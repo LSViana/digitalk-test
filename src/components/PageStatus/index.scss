@@ -1,0 +1,35 @@
+@import '../../styles/bundle';
+
+.page-status {
+  display: grid;
+  grid-auto-flow: column;
+  grid-gap: calc(1vw + 1rem);
+  justify-content: start;
+  &.blue .text-area {
+    background-color: $pokemonBlue;
+  }
+  &.green .text-area {
+    background-color: $pokemonGreen;
+  }
+  &.yellow .text-area {
+    background-color: $pokemonYellow;
+    color: black;
+  }
+  .left-marker {
+    height: calc(2vw + 2rem);
+  }
+  .text-area {
+    border: calc(.075vw + .1rem) solid black;
+    border-radius: $medium;
+    height: 100%;
+    padding: 0 calc(1vw + .5rem);
+    display: flex;
+    align-items: center;
+    background-color: $pokemonBlue;
+    p {
+      font-family: Staatliches, sans-serif;
+      font-size: calc(1vw + 1rem);
+      min-width: 30vw;
+    }
+  }
+}

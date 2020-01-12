@@ -1,8 +1,15 @@
 /* Importing Roboto and Staatliches typefaces */
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,700|Staatliches&display=swap');
+@import '../styles/bundle';
 
 * {
   margin: 0;
   padding: 0;
   font-family: Roboto, sans-serif;
+  outline: none;
+}
+
+*::selection {
+  color: $pokemonRed;
+  background-color: white;
 }

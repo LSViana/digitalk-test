@@ -1,0 +1,39 @@
+/* Colors */
+/* Times */
+/* Screen breakpoints */
+/* Dimensions */
+.page-status {
+  display: grid;
+  grid-auto-flow: column;
+  grid-gap: calc(1vw + 1rem);
+  justify-content: start;
+}
+.page-status.blue .text-area {
+  background-color: #3476CC;
+}
+.page-status.green .text-area {
+  background-color: #43CC34;
+}
+.page-status.yellow .text-area {
+  background-color: #F5CC04;
+  color: black;
+}
+.page-status .left-marker {
+  height: calc(2vw + 2rem);
+}
+.page-status .text-area {
+  border: calc(.075vw + .1rem) solid black;
+  border-radius: 8px;
+  height: 100%;
+  padding: 0 calc(1vw + .5rem);
+  display: flex;
+  align-items: center;
+  background-color: #3476CC;
+}
+.page-status .text-area p {
+  font-family: Staatliches, sans-serif;
+  font-size: calc(1vw + 1rem);
+  min-width: 30vw;
+}
+
+/*# sourceMappingURL=index.css.map */

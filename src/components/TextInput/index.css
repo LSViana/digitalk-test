@@ -1,0 +1,22 @@
+/* Colors */
+/* Times */
+/* Screen breakpoints */
+/* Dimensions */
+.text-input-container {
+  background-color: white;
+  border-radius: 1000px;
+  display: flex;
+  align-items: center;
+}
+.text-input-container .text-input {
+  border: none;
+  background-color: transparent;
+  padding: 0.5rem 1rem;
+  font-size: calc(.3vw + .7rem);
+}
+.text-input-container .text-input::selection {
+  background-color: #ED1E24;
+  color: white;
+}
+
+/*# sourceMappingURL=index.css.map */

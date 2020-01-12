@@ -2,8 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="abbb556d-d847-41f7-800c-cb0e87eb29bc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/assets/vectors/left-marker.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/PageStatus/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/PageStatus/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/SearchInput/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/SearchInput/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/TextInput/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/TextInput/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/pokemon/List/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App/index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/index.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/PokedexLayout/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/PokedexLayout/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/PokedexLayout/index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/PokedexLayout/index.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/PokedexLayout/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/PokedexLayout/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/PokedexLayout/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/PokedexLayout/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/pokemon/Details/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/pokemon/Details/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/pokemon/List/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/pokemon/List/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +63,7 @@
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
+    <property name="ts.external.directory.path" value="C:\Users\lv201\AppData\Local\JetBrains\Toolbox\apps\PhpStorm\ch-0\193.5662.63\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -95,7 +114,7 @@
       <option name="presentableId" value="Default" />
       <updated>1578610366919</updated>
       <workItem from="1578610369086" duration="612000" />
-      <workItem from="1578827270000" duration="4524000" />
+      <workItem from="1578827270000" duration="10887000" />
     </task>
     <servers />
   </component>
@@ -106,58 +125,58 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="721" y="328" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1578828294379">
+    <state x="721" y="328" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1578846513615">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="721" y="328" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1578828294379" />
-    <state width="623" height="466" key="DebuggerActiveHint" timestamp="1578828734652">
+    <state x="721" y="328" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1578846513615" />
+    <state width="785" height="466" key="DebuggerActiveHint" timestamp="1578847009677">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="623" height="466" key="DebuggerActiveHint/0.0.1920.1050@0.0.1920.1050" timestamp="1578828734652" />
+    <state width="785" height="466" key="DebuggerActiveHint/0.0.1920.1050@0.0.1920.1050" timestamp="1578847009677" />
     <state x="594" y="304" key="EditFileWatcherDialog" timestamp="1578827457016">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="594" y="304" key="EditFileWatcherDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1578827457016" />
-    <state width="1877" height="311" key="GridCell.Tab.0.bottom" timestamp="1578828853159">
+    <state width="1877" height="311" key="GridCell.Tab.0.bottom" timestamp="1578848124321">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="311" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1578828853159" />
-    <state width="1877" height="311" key="GridCell.Tab.0.center" timestamp="1578828853158">
+    <state width="1877" height="311" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1578848124321" />
+    <state width="1877" height="311" key="GridCell.Tab.0.center" timestamp="1578848124321">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="311" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1578828853158" />
-    <state width="1877" height="311" key="GridCell.Tab.0.left" timestamp="1578828853158">
+    <state width="1877" height="311" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1578848124321" />
+    <state width="1877" height="311" key="GridCell.Tab.0.left" timestamp="1578848124321">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="311" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1578828853158" />
-    <state width="1877" height="311" key="GridCell.Tab.0.right" timestamp="1578828853158">
+    <state width="1877" height="311" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1578848124321" />
+    <state width="1877" height="311" key="GridCell.Tab.0.right" timestamp="1578848124321">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="311" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1578828853158" />
-    <state width="1877" height="311" key="GridCell.Tab.1.bottom" timestamp="1578828853159">
+    <state width="1877" height="311" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1578848124321" />
+    <state width="1877" height="311" key="GridCell.Tab.1.bottom" timestamp="1578848124322">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="311" key="GridCell.Tab.1.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1578828853159" />
-    <state width="1877" height="311" key="GridCell.Tab.1.center" timestamp="1578828853159">
+    <state width="1877" height="311" key="GridCell.Tab.1.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1578848124322" />
+    <state width="1877" height="311" key="GridCell.Tab.1.center" timestamp="1578848124321">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="311" key="GridCell.Tab.1.center/0.0.1920.1050@0.0.1920.1050" timestamp="1578828853159" />
-    <state width="1877" height="311" key="GridCell.Tab.1.left" timestamp="1578828853159">
+    <state width="1877" height="311" key="GridCell.Tab.1.center/0.0.1920.1050@0.0.1920.1050" timestamp="1578848124321" />
+    <state width="1877" height="311" key="GridCell.Tab.1.left" timestamp="1578848124321">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="311" key="GridCell.Tab.1.left/0.0.1920.1050@0.0.1920.1050" timestamp="1578828853159" />
-    <state width="1877" height="311" key="GridCell.Tab.1.right" timestamp="1578828853159">
+    <state width="1877" height="311" key="GridCell.Tab.1.left/0.0.1920.1050@0.0.1920.1050" timestamp="1578848124321" />
+    <state width="1877" height="311" key="GridCell.Tab.1.right" timestamp="1578848124321">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="311" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1578828853159" />
+    <state width="1877" height="311" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1578848124321" />
     <state x="461" y="168" key="SettingsEditor" timestamp="1578828388220">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="461" y="168" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1578828388220" />
-    <state width="714" height="436" key="javadoc.popup.new" timestamp="1578830970942">
+    <state width="714" height="436" key="javadoc.popup.new" timestamp="1578843486732">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="714" height="436" key="javadoc.popup.new/0.0.1920.1050@0.0.1920.1050" timestamp="1578830970942" />
+    <state width="714" height="436" key="javadoc.popup.new/0.0.1920.1050@0.0.1920.1050" timestamp="1578843486732" />
     <state x="616" y="243" key="run.anything.popup" timestamp="1578831158772">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>

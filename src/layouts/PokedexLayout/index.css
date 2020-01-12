@@ -1,32 +1,40 @@
 /* Colors */
+/* Times */
 /* Screen breakpoints */
+/* Dimensions */
 .pokedex-layout {
   background-color: #ED1E24;
   color: white;
   overflow-x: hidden;
+  position: relative;
+  min-height: 100vh;
 }
 .pokedex-layout nav {
+  position: relative;
   padding: 16px;
   display: flex;
-  align-items: start;
+  align-items: flex-start;
   justify-content: space-between;
 }
 .pokedex-layout nav .pokemon-buttons {
   display: grid;
   grid-auto-flow: column;
 }
-@media screen and (max-width: 768px) {
-  .pokedex-layout nav .pokemon-buttons {
-    display: none;
-  }
-}
 .pokedex-layout nav .pokemon-buttons .blue-sensor {
-  width: 72px;
-  margin-right: 20px;
+  width: calc(3vw + 3rem);
+  margin-right: 2vw;
 }
 .pokedex-layout nav .pokemon-buttons img:not(.blue-sensor) {
-  width: 24px;
-  margin-right: 8px;
+  width: calc(1vw + 1rem);
+  margin-right: calc(.5vw + .25rem);
+}
+.pokedex-layout nav .pokedex-title {
+  align-self: center;
+}
+@media screen and (max-width: 768px) {
+  .pokedex-layout nav .pokedex-title {
+    display: none;
+  }
 }
 .pokedex-layout nav .pokedex-title h1 {
   font-size: calc(2vw + .5rem);
@@ -36,16 +44,33 @@
   font-size: calc(2vw + .75rem);
   font-family: Staatliches, Segoe UI, sans-serif;
 }
-.pokedex-layout .background-decoration {
-  display: flex;
-  align-items: start;
-}
 .pokedex-layout .background-decoration img {
   position: relative;
 }
-.pokedex-layout .background-decoration .decoration-line {
+.pokedex-layout .background-decoration img {
   width: calc(100vw + 64px);
-  transform: translateX(-32px) translateY(-12px);
+  transform: translateX(-32px) translateY(-1vw);
+}
+@media screen and (max-width: 768px) {
+  .pokedex-layout .background-decoration img {
+    width: calc(150vw + 64px);
+  }
+}
+.pokedex-layout .background-pokeball {
+  opacity: 0.1;
+  position: absolute;
+  right: -1vw;
+  top: -1vw;
+}
+.pokedex-layout .background-pokeball img {
+  width: 40vw;
+  min-width: 320px;
+  max-width: 960px;
+}
+@media screen and (max-width: 768px) {
+  .pokedex-layout .background-pokeball img {
+    display: none;
+  }
 }
 
 /*# sourceMappingURL=index.css.map */

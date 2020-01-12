@@ -1,0 +1,18 @@
+@import '../../styles/bundle';
+
+.text-input-container {
+  background-color: white;
+  border-radius: 1000px;
+  display: flex;
+  align-items: center;
+  .text-input {
+    border: none;
+    background-color: transparent;
+    padding: .5rem 1rem;
+    font-size: calc(.3vw + .7rem);
+    &::selection {
+      background-color: $pokemonRed;
+      color: white;
+    }
+  }
+}
