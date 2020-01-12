@@ -1,10 +1,227 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="abbb556d-d847-41f7-800c-cb0e87eb29bc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/manifest.bkp.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/blue-sensor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/vectors/background-decoration-line.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/vectors/blue-sensor.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/vectors/green-rounded-button.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/vectors/pokeball-solid-black.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/vectors/pokeball-solid.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/vectors/pokeball.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/vectors/pokemon-types/bug.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/vectors/pokemon-types/dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/vectors/pokemon-types/dragon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/vectors/pokemon-types/electric.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/vectors/pokemon-types/fairy.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/vectors/pokemon-types/fighthing.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/vectors/pokemon-types/fire.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/vectors/pokemon-types/flying.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/vectors/pokemon-types/ghost.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/vectors/pokemon-types/grass.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/vectors/pokemon-types/ground.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/vectors/pokemon-types/ice.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/vectors/pokemon-types/poison.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/vectors/pokemon-types/psychic.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/vectors/pokemon-types/rock.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/vectors/pokemon-types/steel.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/vectors/pokemon-types/water.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/vectors/red-rounded-button.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/vectors/search-black.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/vectors/search.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/vectors/yellow-rounded-button.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layouts/PokedexLayout/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layouts/PokedexLayout/index.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layouts/PokedexLayout/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layouts/PokedexLayout/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/bundle.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/pokemon/Details/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/pokemon/List/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/digitalk-test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/digitalk-test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
   <component name="ProjectId" id="1WB5u8ZcufSLGGMF89KrPoTtE5P" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
-    <property name="settings.editor.selected.configurable" value="web.server" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Lucas Viana\Development\javascript\digitalk-test\public" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Lucas Viana\Development\javascript\digitalk-test\src\components\BlueSensor" />
+      <recent name="D:\Lucas Viana\Development\javascript\digitalk-test\src\App" />
+      <recent name="D:\Lucas Viana\Development\javascript\digitalk-test\src\layouts\PokedexLayout" />
+      <recent name="D:\Lucas Viana\Development\javascript\digitalk-test\src\views\pokemon" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.Debug Application">
+    <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
+      <method v="2" />
+    </configuration>
+    <configuration name="npm start" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="abbb556d-d847-41f7-800c-cb0e87eb29bc" name="Default Changelist" comment="" />
+      <created>1578610366919</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578610366919</updated>
+      <workItem from="1578610369086" duration="612000" />
+      <workItem from="1578827270000" duration="4240000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="721" y="328" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1578828294379">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="721" y="328" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1578828294379" />
+    <state width="623" height="466" key="DebuggerActiveHint" timestamp="1578828734652">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="623" height="466" key="DebuggerActiveHint/0.0.1920.1050@0.0.1920.1050" timestamp="1578828734652" />
+    <state x="594" y="304" key="EditFileWatcherDialog" timestamp="1578827457016">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="594" y="304" key="EditFileWatcherDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1578827457016" />
+    <state width="1877" height="311" key="GridCell.Tab.0.bottom" timestamp="1578828853159">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="311" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1578828853159" />
+    <state width="1877" height="311" key="GridCell.Tab.0.center" timestamp="1578828853158">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="311" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1578828853158" />
+    <state width="1877" height="311" key="GridCell.Tab.0.left" timestamp="1578828853158">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="311" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1578828853158" />
+    <state width="1877" height="311" key="GridCell.Tab.0.right" timestamp="1578828853158">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="311" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1578828853158" />
+    <state width="1877" height="311" key="GridCell.Tab.1.bottom" timestamp="1578828853159">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="311" key="GridCell.Tab.1.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1578828853159" />
+    <state width="1877" height="311" key="GridCell.Tab.1.center" timestamp="1578828853159">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="311" key="GridCell.Tab.1.center/0.0.1920.1050@0.0.1920.1050" timestamp="1578828853159" />
+    <state width="1877" height="311" key="GridCell.Tab.1.left" timestamp="1578828853159">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="311" key="GridCell.Tab.1.left/0.0.1920.1050@0.0.1920.1050" timestamp="1578828853159" />
+    <state width="1877" height="311" key="GridCell.Tab.1.right" timestamp="1578828853159">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="311" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1578828853159" />
+    <state x="461" y="168" key="SettingsEditor" timestamp="1578828388220">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="461" y="168" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1578828388220" />
+    <state width="714" height="436" key="javadoc.popup.new" timestamp="1578830970942">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="714" height="436" key="javadoc.popup.new/0.0.1920.1050@0.0.1920.1050" timestamp="1578830970942" />
+    <state x="616" y="243" key="run.anything.popup" timestamp="1578831158772">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="616" y="243" key="run.anything.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1578831158772" />
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1578828537649">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1578828537649" />
   </component>
 </project>

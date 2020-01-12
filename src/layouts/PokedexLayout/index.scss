@@ -1,0 +1,49 @@
+@import '../../styles/bundle';
+
+.pokedex-layout {
+  background-color: $pokemonRed;
+  color: white;
+  overflow-x: hidden;
+  nav {
+    padding: 16px;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    .pokemon-buttons {
+      @media screen and (max-width: $breakpointMd) {
+        display: none;
+      }
+      display: grid;
+      grid-auto-flow: column;
+      .blue-sensor {
+        width: 72px;
+        margin-right: 20px;
+      }
+      img:not(.blue-sensor) {
+        width: 24px;
+        margin-right: 8px;
+      }
+    }
+    .pokedex-title {
+      h1 {
+        font-size: calc(2vw + .5rem);
+        font-weight: lighter;
+        span {
+          font-size: calc(2vw + .75rem);
+          font-family: Staatliches, Segoe UI, sans-serif;
+        }
+      }
+    }
+  }
+  .background-decoration {
+    display: flex;
+    align-items: start;
+    img {
+      position: relative;
+    }
+    .decoration-line {
+      width: calc(100vw + 64px);
+      transform: translateX(-32px) translateY(-12px);
+    }
+  }
+}

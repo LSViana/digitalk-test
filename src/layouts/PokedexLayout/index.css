@@ -1,0 +1,51 @@
+/* Colors */
+/* Screen breakpoints */
+.pokedex-layout {
+  background-color: #ED1E24;
+  color: white;
+  overflow-x: hidden;
+}
+.pokedex-layout nav {
+  padding: 16px;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+}
+.pokedex-layout nav .pokemon-buttons {
+  display: grid;
+  grid-auto-flow: column;
+}
+@media screen and (max-width: 768px) {
+  .pokedex-layout nav .pokemon-buttons {
+    display: none;
+  }
+}
+.pokedex-layout nav .pokemon-buttons .blue-sensor {
+  width: 72px;
+  margin-right: 20px;
+}
+.pokedex-layout nav .pokemon-buttons img:not(.blue-sensor) {
+  width: 24px;
+  margin-right: 8px;
+}
+.pokedex-layout nav .pokedex-title h1 {
+  font-size: calc(2vw + .5rem);
+  font-weight: lighter;
+}
+.pokedex-layout nav .pokedex-title h1 span {
+  font-size: calc(2vw + .75rem);
+  font-family: Staatliches, Segoe UI, sans-serif;
+}
+.pokedex-layout .background-decoration {
+  display: flex;
+  align-items: start;
+}
+.pokedex-layout .background-decoration img {
+  position: relative;
+}
+.pokedex-layout .background-decoration .decoration-line {
+  width: calc(100vw + 64px);
+  transform: translateX(-32px) translateY(-12px);
+}
+
+/*# sourceMappingURL=index.css.map */
