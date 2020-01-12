@@ -1,6 +1,58 @@
+@import '../../../styles/bundle';
+
 .page-list {
   padding: calc(1vw + 1rem);
   display: grid;
   grid-auto-flow: row;
   justify-content: stretch;
+  .pokemons-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, calc(8vw + 16rem));
+    justify-content: center;
+    grid-gap: calc(16px);
+    list-style: none;
+    padding: calc(1vw + 1rem) 0;
+    li {
+      border: $xSmall solid black;
+      background-color: white;
+      border-radius: $xxSmall;
+      overflow: hidden;
+      position: relative;
+      .pokemon-image {
+        width: calc(8vw + 20rem);
+        height: calc(8vw + 20rem);
+      }
+      .pokemon-data {
+        position: absolute;
+        left: 0;
+        bottom: 24px;
+        border: $xSmall solid black;
+        border-left: none;
+        background-color: $pokemonRed80;
+        padding: calc(.5vw + .5rem);
+        .pokemon-name {
+          display: grid;
+          grid-auto-flow: column;
+          align-items: center;
+          justify-content: start;
+          grid-gap: 8px;
+          p {
+            font-family: Staatliches, sans-serif;
+            font-size: calc(1vw + 1.5rem);
+          }
+          span {
+            font-family: Consolas, Roboto, sans-serif;
+            font-size: calc(.5vw + .5rem);
+            opacity: .75;
+          }
+        }
+        .pokemon-types {
+          display: grid;
+          grid-gap: 8px;
+          grid-auto-flow: column;
+          justify-content: start;
+        }
+      }
+    }
+  }
 }

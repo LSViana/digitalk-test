@@ -5,8 +5,8 @@ import GreenRoundedButton from '../../assets/vectors/green-rounded-button.svg';
 import YellowRoundedButton from '../../assets/vectors/yellow-rounded-button.svg';
 import BackgroundDecorationLine from '../../assets/vectors/background-decoration-line.svg';
 import PokeballSolidBlack from '../../assets/vectors/pokeball-solid-black.svg';
-import './index.scss';
 import SearchInput from "../../components/SearchInput";
+import './index.scss';
 
 class PokedexLayout extends React.Component {
     state = {
@@ -39,7 +39,9 @@ class PokedexLayout extends React.Component {
                 <div className="background-decoration">
                     <img src={BackgroundDecorationLine} aria-hidden='true' alt='' />
                 </div>
-                {this.props.children}
+                <div className="children-wrapper">
+                    {this.props.children}
+                </div>
             </div>
         );
     }

@@ -16,4 +16,9 @@
   background-color: white;
 }
 
+a {
+  text-decoration: none;
+  color: unset;
+}
+
 /*# sourceMappingURL=index.css.map */

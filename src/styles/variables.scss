@@ -2,6 +2,7 @@
 $pokemonRed: #ED1E24;
 $pokemonRed15: rgba(237, 30, 36, 0.15);
 $pokemonRed30: rgba(237, 30, 36, 0.3);
+$pokemonRed80: rgba(237, 30, 36, 0.8);
 $pokemonBlue: #3476CC;
 $pokemonYellow: #F5CC04;
 $pokemonGreen: #43CC34;
@@ -13,8 +14,10 @@ $timeShort: .2s;
 $breakpointMd: 768px;
 
 /* Dimensions */
-$xSmall: 2px;
+$xxSmall: 2px;
+$xSmall: 3px;
 $small: 4px;
 $medium: 8px;
 $large: 12px;
 $xLarge: 16px;
+$xxLarge: 32px;

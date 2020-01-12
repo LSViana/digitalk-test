@@ -72,5 +72,8 @@
     display: none;
   }
 }
+.pokedex-layout .children-wrapper {
+  position: relative;
+}
 
 /*# sourceMappingURL=index.css.map */
