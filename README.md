@@ -1,4 +1,4 @@
-This project was bootstrapped was created for **Digitalk** admission test.
+This project was created for **Digitalk** admission test.
 
 It uses the following libraries:
 * React

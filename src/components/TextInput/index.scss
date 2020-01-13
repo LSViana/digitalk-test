@@ -10,6 +10,7 @@
     background-color: transparent;
     padding: .5rem 1.5rem;
     font-size: calc(.3vw + .7rem);
+    max-width: 20vw;
     &::selection {
       background-color: $pokemonRed;
       color: white;

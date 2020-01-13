@@ -2,41 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="abbb556d-d847-41f7-800c-cb0e87eb29bc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/views/pokemon/Details/index.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/index.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/vectors/pokemon-types/normal.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/vectors/pokemon-types/normal.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/InflatedButton/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/InflatedButton/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/InflatedButton/index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/InflatedButton/index.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/InflatedButton/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/InflatedButton/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/PageStatus/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PageStatus/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/PageStatus/index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PageStatus/index.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/PokemonTypeBadge/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PokemonTypeBadge/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/PokemonTypeBadge/index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PokemonTypeBadge/index.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/PokemonTypeBadge/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PokemonTypeBadge/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/PokemonTypeBadge/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PokemonTypeBadge/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SearchInput/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SearchInput/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SearchInput/index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SearchInput/index.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/TextInput/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TextInput/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/TextInput/index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TextInput/index.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/PokedexLayout/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/PokedexLayout/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/PokedexLayout/index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/PokedexLayout/index.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/PokedexLayout/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/PokedexLayout/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/actionTypes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/actionTypes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/actions/pokemonSpecies.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/actions/pokemonSpecies.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/actions/pokemons.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/actions/pokemons.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/reducers/pokemons.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducers/pokemons.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/bundle.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/bundle.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/pokemon/Details/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/pokemon/Details/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/pokemon/List/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/pokemon/List/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/pokemon/List/index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/pokemon/List/index.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/pokemon/List/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/pokemon/List/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/pokemon/List/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/pokemon/List/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TextInput/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TextInput/index.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +51,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
+    <property name="settings.editor.selected.configurable" value="terminal" />
     <property name="ts.external.directory.path" value="C:\Users\lv201\AppData\Local\JetBrains\Toolbox\apps\PhpStorm\ch-0\193.5662.63\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
@@ -134,7 +107,7 @@
       <option name="presentableId" value="Default" />
       <updated>1578610366919</updated>
       <workItem from="1578610369086" duration="612000" />
-      <workItem from="1578827270000" duration="38712000" />
+      <workItem from="1578827270000" duration="41731000" />
     </task>
     <servers />
   </component>
@@ -149,62 +122,66 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="721" y="328" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1578846513615" />
-    <state width="1096" height="466" key="DebuggerActiveHint" timestamp="1578925282408">
+    <state width="1096" height="466" key="DebuggerActiveHint" timestamp="1578933332556">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1096" height="466" key="DebuggerActiveHint/0.0.1920.1050@0.0.1920.1050" timestamp="1578925282408" />
+    <state width="1096" height="466" key="DebuggerActiveHint/0.0.1920.1050@0.0.1920.1050" timestamp="1578933332556" />
     <state x="594" y="304" key="EditFileWatcherDialog" timestamp="1578827457016">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="594" y="304" key="EditFileWatcherDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1578827457016" />
-    <state width="1877" height="311" key="GridCell.Tab.0.bottom" timestamp="1578926400977">
+    <state x="740" y="272" key="FileChooserDialogImpl" timestamp="1578932991702">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="311" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1578926400977" />
-    <state width="1877" height="311" key="GridCell.Tab.0.center" timestamp="1578926400977">
+    <state x="740" y="272" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1578932991702" />
+    <state width="1877" height="311" key="GridCell.Tab.0.bottom" timestamp="1578933773717">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="311" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1578926400977" />
-    <state width="1877" height="311" key="GridCell.Tab.0.left" timestamp="1578926400977">
+    <state width="1877" height="311" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1578933773717" />
+    <state width="1877" height="311" key="GridCell.Tab.0.center" timestamp="1578933773717">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="311" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1578926400977" />
-    <state width="1877" height="311" key="GridCell.Tab.0.right" timestamp="1578926400977">
+    <state width="1877" height="311" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1578933773717" />
+    <state width="1877" height="311" key="GridCell.Tab.0.left" timestamp="1578933773717">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="311" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1578926400977" />
-    <state width="1877" height="311" key="GridCell.Tab.1.bottom" timestamp="1578926400977">
+    <state width="1877" height="311" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1578933773717" />
+    <state width="1877" height="311" key="GridCell.Tab.0.right" timestamp="1578933773717">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="311" key="GridCell.Tab.1.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1578926400977" />
-    <state width="1877" height="311" key="GridCell.Tab.1.center" timestamp="1578926400977">
+    <state width="1877" height="311" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1578933773717" />
+    <state width="1877" height="311" key="GridCell.Tab.1.bottom" timestamp="1578933773717">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="311" key="GridCell.Tab.1.center/0.0.1920.1050@0.0.1920.1050" timestamp="1578926400977" />
-    <state width="1877" height="311" key="GridCell.Tab.1.left" timestamp="1578926400977">
+    <state width="1877" height="311" key="GridCell.Tab.1.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1578933773717" />
+    <state width="1877" height="311" key="GridCell.Tab.1.center" timestamp="1578933773717">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="311" key="GridCell.Tab.1.left/0.0.1920.1050@0.0.1920.1050" timestamp="1578926400977" />
-    <state width="1877" height="311" key="GridCell.Tab.1.right" timestamp="1578926400977">
+    <state width="1877" height="311" key="GridCell.Tab.1.center/0.0.1920.1050@0.0.1920.1050" timestamp="1578933773717" />
+    <state width="1877" height="311" key="GridCell.Tab.1.left" timestamp="1578933773717">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="311" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1578926400977" />
-    <state x="461" y="168" key="SettingsEditor" timestamp="1578828388220">
+    <state width="1877" height="311" key="GridCell.Tab.1.left/0.0.1920.1050@0.0.1920.1050" timestamp="1578933773717" />
+    <state width="1877" height="311" key="GridCell.Tab.1.right" timestamp="1578933773717">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="461" y="168" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1578828388220" />
-    <state width="714" height="436" key="javadoc.popup.new" timestamp="1578918174005">
+    <state width="1877" height="311" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1578933773717" />
+    <state x="461" y="168" key="SettingsEditor" timestamp="1578933019398">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="714" height="436" key="javadoc.popup.new/0.0.1920.1050@0.0.1920.1050" timestamp="1578918174005" />
+    <state x="461" y="168" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1578933019398" />
+    <state width="714" height="436" key="javadoc.popup.new" timestamp="1578933148981">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="714" height="436" key="javadoc.popup.new/0.0.1920.1050@0.0.1920.1050" timestamp="1578933148981" />
     <state x="616" y="243" width="672" height="677" key="run.anything.popup" timestamp="1578855456460">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="616" y="243" width="672" height="677" key="run.anything.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1578855456460" />
-    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1578930433784">
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1578933014470">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1578930433784" />
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1578933014470" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
