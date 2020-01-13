@@ -18,9 +18,15 @@
       border-radius: $xxSmall;
       overflow: hidden;
       position: relative;
+      &:hover {
+        .pokemon-image {
+          transform: scale(1.1);
+        }
+      }
       .pokemon-image {
         width: calc(8vw + 20rem);
         height: calc(8vw + 20rem);
+        transition: transform $timeShort;
       }
       .pokemon-data {
         position: absolute;

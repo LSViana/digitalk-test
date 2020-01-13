@@ -7,10 +7,13 @@ import BackgroundDecorationLine from '../../assets/vectors/background-decoration
 import PokeballSolidBlack from '../../assets/vectors/pokeball-solid-black.svg';
 import SearchInput from "../../components/SearchInput";
 import './index.scss';
+import {Link} from "react-router-dom";
+import {connect} from "react-redux";
+import {updateSearch} from "../../store/actions/pokemons";
 
 class PokedexLayout extends React.Component {
     state = {
-        searchText: ''
+        pokemonQuery: ''
     };
 
     render() {
@@ -20,17 +23,21 @@ class PokedexLayout extends React.Component {
                     <img  src={PokeballSolidBlack} aria-hidden='true' alt='' />
                 </div>
                 <nav>
-                    <div className="pokemon-buttons">
-                        <img className='blue-sensor' src={BlueSensor} alt="Pokémon's blue sensor" />
-                        <img className='red-rounded-button' src={RedRoundedButton} alt="Pokémon's red rounded button" />
-                        <img className='yellow-rounded-button' src={YellowRoundedButton} alt="Pokémon's yellow rounded button" />
-                        <img className='green-rounded-button' src={GreenRoundedButton} alt="Pokémon's green rounded button" />
-                    </div>
+                    <Link to='/'>
+                        <div className="pokemon-buttons">
+                            <img className='blue-sensor' src={BlueSensor} alt="Pokémon's blue sensor" />
+                            <img className='red-rounded-button' src={RedRoundedButton} alt="Pokémon's red rounded button" />
+                            <img className='yellow-rounded-button' src={YellowRoundedButton} alt="Pokémon's yellow rounded button" />
+                            <img className='green-rounded-button' src={GreenRoundedButton} alt="Pokémon's green rounded button" />
+                        </div>
+                    </Link>
                     <div className="pokedex-title">
-                        <h1><span>Pokédex</span> with React.js</h1>
+                        <Link to='/'>
+                            <h1><span>Pokédex</span> with React.js</h1>
+                        </Link>
                     </div>
                     <SearchInput
-                        value={this.state.searchText}
+                        value={this.state.pokemonQuery}
                         onChange={this.onSearchTextChange}
                         onSearch={this.onSearchClick}
                         className={['a']} placeholder='Search Pokémons'
@@ -47,16 +54,20 @@ class PokedexLayout extends React.Component {
     }
 
     onSearchTextChange = (e) => {
-        const searchText = e.target.value;
+        const pokemonQuery = e.target.value;
         this.setState({
-            searchText,
+            pokemonQuery,
         });
     };
 
     onSearchClick = () => {
-        console.log('Search triggered');
+        updateSearch(this.state.pokemonQuery);
     };
 }
 
-export default PokedexLayout;
+const mapStateToProps = state => ({
+    pokemonQuery: state.pokemons.query
+});
+
+export default connect(mapStateToProps)(PokedexLayout);
 

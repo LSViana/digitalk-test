@@ -8,7 +8,7 @@ function SearchInput(props = { type: 'text' })
     const propsFiltered = { ...props };
     delete(propsFiltered.onSearch);
     return (
-        <TextInput {...propsFiltered}>
+        <TextInput {...propsFiltered} onKeyPress={e => { if(e.key === 'Enter') props.onSearch() }}>
             <button className='search-input-button' onClick={props.onSearch}>
                 <img src={SearchIcon} alt='Search Pokemóns button' />
             </button>

@@ -3,10 +3,11 @@ import {connect} from "react-redux";
 import PageStatus from "../../../components/PageStatus";
 import PokemonTypeBadge from "../../../components/PokemonTypeBadge";
 import {fetchPokemonSpecies} from '../../../store/actions/pokemonSpecies';
-import {fetchPokemons} from "../../../store/actions/pokemons";
+import {fetchPokemons, updateSearch} from "../../../store/actions/pokemons";
 import {ImageAPIRoot} from "../../../infrastructure";
 import {Link} from "react-router-dom";
 import './index.scss';
+import InflatedButton from "../../../components/InflatedButton";
 
 class PokemonList extends React.Component {
     state = {
@@ -17,11 +18,18 @@ class PokemonList extends React.Component {
     };
 
     componentDidMount() {
-        fetchPokemonSpecies(fetchPokemons);
+        if(this.props.pokemons.list.length === 0) {
+            fetchPokemonSpecies(fetchPokemons);
+        }
     }
 
     render() {
-        const pokemonElements = this.props.pokemons.list.map(x => (
+        const pokemonQuery = this.props.pokemons.query.trim();
+        const pokemonQueryUpperCase = pokemonQuery.toUpperCase();
+        const filteredPokemons = pokemonQuery.length > 0 ?
+            this.props.pokemons.list.filter(x => x.name.toUpperCase().indexOf(pokemonQueryUpperCase) !== -1) :
+            this.props.pokemons.list;
+        const pokemonElements = filteredPokemons.map(x => (
             <li key={x.id}>
                 <Link to={`/pokemon/${x.name}`}>
                     <img className='pokemon-image' src={`${ImageAPIRoot}${x.id}.png`} alt={x.name}/>
@@ -41,12 +49,23 @@ class PokemonList extends React.Component {
         ));
         return (
             <div className='page-list'>
-                <PageStatus text='All Pokémons' className={[ this.state.status === 'list' ? 'blue' : 'green' ]} />
+                <div className='page-status'>
+                    <PageStatus text={pokemonQuery.length === 0 ? 'All Pokémons' : `Filtering by "${pokemonQuery}"`} className={[ pokemonQuery.length === 0 ? 'blue' : 'green' ]} />
+                    {pokemonQuery.length > 0 && (
+                        <InflatedButton onClick={this.clearSearchFilter}>
+                            <p>Clear search filter</p>
+                        </InflatedButton>
+                    )}
+                </div>
                 <ul className='pokemons-list'>
                     {pokemonElements}
                 </ul>
             </div>
         );
+    }
+
+    clearSearchFilter = () => {
+        updateSearch('');
     }
 }
 

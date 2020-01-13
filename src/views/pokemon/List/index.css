@@ -23,9 +23,13 @@
   overflow: hidden;
   position: relative;
 }
+.page-list .pokemons-list li:hover .pokemon-image {
+  transform: scale(1.1);
+}
 .page-list .pokemons-list li .pokemon-image {
   width: calc(8vw + 20rem);
   height: calc(8vw + 20rem);
+  transition: transform 0.2s;
 }
 .page-list .pokemons-list li .pokemon-data {
   position: absolute;

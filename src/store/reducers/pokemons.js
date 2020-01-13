@@ -1,8 +1,9 @@
-import {ADD_POKEMON, ADD_POKEMONS, SELECT_POKEMON} from "../actionTypes";
+import {ADD_POKEMON, ADD_POKEMONS, SELECT_POKEMON, UPDATE_SEARCH_POKEMON} from "../actionTypes";
 
 const initialState = {
   list: [],
-  selectedPokemon: {}
+  selectedPokemon: {},
+  query: '',
 };
 
 export default function(state = initialState, action) {
@@ -12,7 +13,6 @@ export default function(state = initialState, action) {
                 ...state,
                 list: action.pokemons
             };
-            return;
         case ADD_POKEMON:
             return {
                 ...state,
@@ -25,6 +25,11 @@ export default function(state = initialState, action) {
             return {
                 ...state,
                 selectedPokemon: state.list.filter(x => x.id === action.id)[0] || {}
+            };
+        case UPDATE_SEARCH_POKEMON:
+            return {
+                ...state,
+                query: action.query
             };
         default:
             return state;

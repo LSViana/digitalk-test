@@ -1,0 +1,35 @@
+@import '../../styles/bundle';
+
+.inflated-button {
+  border: $xSmall solid black;
+  border-radius: 9999px;
+  height: 100%;
+  padding: 0 calc(1vw + 1rem);
+  display: flex;
+  align-items: center;
+  position: relative;
+  background-color: lightgrey;
+  overflow: hidden;
+  cursor: pointer;
+  &:active {
+    .background-decoration {
+      transform: translateY(0);
+    }
+  }
+  .background-decoration {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    border-radius: 9999px;
+    left: 0;
+    top: 0;
+    transform: translateY(calc((.25vw + .25rem) * -1));
+    transition: transform $timeShort;
+  }
+  & > *:not(.background-decoration) {
+    position: relative;
+    color: black;
+    font-size: calc(1vw + .5rem);
+  }
+}
