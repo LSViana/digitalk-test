@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/digitalk-test/static/css/main.e3eac9e1.chunk.css",
+    "main.css": "/digitalk-test/static/css/main.55e0e062.chunk.css",
     "main.js": "/digitalk-test/static/js/main.0127de01.chunk.js",
     "main.js.map": "/digitalk-test/static/js/main.0127de01.chunk.js.map",
     "runtime-main.js": "/digitalk-test/static/js/runtime-main.74bea62d.js",
@@ -8,9 +8,9 @@
     "static/js/2.653e68ee.chunk.js": "/digitalk-test/static/js/2.653e68ee.chunk.js",
     "static/js/2.653e68ee.chunk.js.map": "/digitalk-test/static/js/2.653e68ee.chunk.js.map",
     "index.html": "/digitalk-test/index.html",
-    "precache-manifest.ec3d9fbe122777d6cc4091cf771a51da.js": "/digitalk-test/precache-manifest.ec3d9fbe122777d6cc4091cf771a51da.js",
+    "precache-manifest.f8f0b2d5e852b453c7504778ebff8202.js": "/digitalk-test/precache-manifest.f8f0b2d5e852b453c7504778ebff8202.js",
     "service-worker.js": "/digitalk-test/service-worker.js",
-    "static/css/main.e3eac9e1.chunk.css.map": "/digitalk-test/static/css/main.e3eac9e1.chunk.css.map",
+    "static/css/main.55e0e062.chunk.css.map": "/digitalk-test/static/css/main.55e0e062.chunk.css.map",
     "static/js/2.653e68ee.chunk.js.LICENSE": "/digitalk-test/static/js/2.653e68ee.chunk.js.LICENSE",
     "static/media/background-decoration-line.svg": "/digitalk-test/static/media/background-decoration-line.a236f90f.svg",
     "static/media/blue-sensor.svg": "/digitalk-test/static/media/blue-sensor.e1323413.svg",
@@ -42,7 +42,7 @@
   "entrypoints": [
     "static/js/runtime-main.74bea62d.js",
     "static/js/2.653e68ee.chunk.js",
-    "static/css/main.e3eac9e1.chunk.css",
+    "static/css/main.55e0e062.chunk.css",
     "static/js/main.0127de01.chunk.js"
   ]
 }
