@@ -1,8 +1,132 @@
+@import '../../styles/bundle';
+
 .pokemon-type-badge {
+  display: flex;
+  align-items: center;
   background-color: white;
   border-radius: 9999px;
   padding: calc(.25vw + .5rem) calc(.25vw + .75rem);
   color: black;
-  font-size: calc(.25vw + 1rem);
+  &.small p {
+    font-size: calc(.25vw + 1rem) !important;
+  }
+  p {
+    font-family: Roboto, sans-serif !important;
+    font-size: calc(1vw + 1rem) !important;
+    text-align: center;
+    margin-right: calc(.25vw + .25rem);
+  }
+  svg {
+    width: calc(.5vw + 1rem);
+    height: auto;
+  }
   /* TODO Create styles for all types */
+  &.bug {
+    color: $typeBug;
+    svg {
+      fill: $typeBug;
+    }
+  }
+  &.dark {
+    color: $typeDark;
+    svg {
+      fill: $typeDark;
+    }
+  }
+  &.dragon {
+    color: $typeDragon;
+    svg {
+      fill: $typeDragon;
+    }
+  }
+  &.electric {
+    color: $typeElectric;
+    svg {
+      fill: $typeElectric;
+    }
+  }
+  &.fairy {
+    color: $typeFairy;
+    svg {
+      fill: $typeFairy;
+    }
+  }
+  &.fighting {
+    color: $typeFighting;
+    svg {
+      fill: $typeFighting;
+    }
+  }
+  &.fire {
+    color: $typeFire;
+    svg {
+      fill: $typeFire;
+    }
+  }
+  &.flying {
+    color: $typeFlying;
+    svg {
+      fill: $typeFlying;
+    }
+  }
+  &.ghost {
+    color: $typeGhost;
+    svg {
+      fill: $typeGhost;
+    }
+  }
+  &.grass {
+    color: $typeGrass;
+    svg {
+      fill: $typeGrass;
+    }
+  }
+  &.ground {
+    color: $typeGround;
+    svg {
+      fill: $typeGround;
+    }
+  }
+  &.ice {
+    color: $typeIce;
+    svg {
+      fill: $typeIce;
+    }
+  }
+  &.normal {
+    color: $typeNormal;
+    svg {
+      fill: $typeNormal;
+    }
+  }
+  &.poison {
+    color: $typePoison;
+    svg {
+      fill: $typePoison;
+    }
+  }
+  &.psychic {
+    color: $typePsychic;
+    svg {
+      fill: $typePsychic;
+    }
+  }
+  &.rock {
+    color: $typeRock;
+    svg {
+      fill: $typeRock;
+    }
+  }
+  &.steel {
+    color: $typeSteel;
+    svg {
+      fill: $typeSteel;
+    }
+  }
+  &.water {
+    color: $typeWater;
+    svg {
+      fill: $typeWater;
+    }
+  }
 }

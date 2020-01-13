@@ -1,9 +1,11 @@
+@charset "UTF-8";
 /* Importing Roboto and Staatliches typefaces */
 @import url("https://fonts.googleapis.com/css?family=Roboto:400,700|Staatliches&display=swap");
 /* Colors */
 /* Times */
 /* Screen breakpoints */
 /* Dimensions */
+/* Pokémon's Color of Types */
 * {
   margin: 0;
   padding: 0;
@@ -19,6 +21,10 @@
 a {
   text-decoration: none;
   color: unset;
+}
+
+body {
+  overflow-y: scroll;
 }
 
 /*# sourceMappingURL=index.css.map */

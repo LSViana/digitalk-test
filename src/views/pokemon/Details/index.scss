@@ -1,0 +1,84 @@
+@import '../../../styles/bundle';
+
+.page-details {
+  padding: calc(1vw + 1rem);
+  display: grid;
+  grid-gap: calc(1vw + 1rem);
+  grid-auto-flow: row;
+  justify-content: stretch;
+  .page-status-container {
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: start;
+    justify-items: start;
+    grid-gap: calc(.5vw + .5rem);
+    @media screen and (max-width: $breakpointMd) {
+      grid-auto-flow: row;
+      grid-template-columns: repeat(auto-fit, 100%);
+      & > *:not(:first-child) {
+        justify-self: center;
+      }
+    }
+  }
+  .pokemon-details {
+    display: grid;
+    grid-template-columns: calc(15vw + 15rem) 1fr;
+    grid-gap: calc(1vw + 1rem);
+    align-content: start;
+    justify-content: center;
+    @media screen and (max-width: $breakpointMd) {
+      grid-template-columns: repeat(auto-fit, calc(15vw + 15rem));
+    }
+    .pokemon-image {
+      background-color: white;
+      border: $xSmall solid black;
+      display: flex;
+      max-width: calc(15vw + 15rem);
+      max-height: calc(15vw + 15rem);
+      overflow: hidden;
+      img {
+        min-width: calc(100% + 3rem);
+        margin-left: -1.5rem;
+        object-fit: cover;
+      }
+    }
+    .pokemon-details-list {
+      display: grid;
+      @media screen and (max-width: $breakpointMd) {
+        grid-template-columns: repeat(2, 1fr);
+      }
+      align-content: start;
+      justify-content: start;
+      grid-row-gap: calc(.5vw + .5rem);
+      grid-column-gap: calc(2vw + 2rem);
+      div span {
+        opacity: .75;
+        font-size: calc(1vw + .5rem);
+      }
+      div h2, div p {
+        font-family: Staatliches, sans-serif;
+      }
+      div h2 {
+        font-size: calc(2vw + 2rem);
+        font-weight: lighter;
+      }
+      div p {
+        font-size: calc(1vw + 1rem);
+      }
+      .pokemon-types, .pokemon-name {
+        grid-column-end: span 2;
+      }
+      .pokemon-types {
+        display: grid;
+        grid-auto-flow: row;
+        grid-gap: calc(.25vw + .25rem);
+        .pokemon-types-list {
+          display: grid;
+          grid-auto-flow: column;
+          grid-gap: calc(.5vw + .5rem);
+          justify-content: start;
+        }
+      }
+    }
+  }
+}

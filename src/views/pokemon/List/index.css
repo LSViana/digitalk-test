@@ -1,12 +1,31 @@
+@charset "UTF-8";
 /* Colors */
 /* Times */
 /* Screen breakpoints */
 /* Dimensions */
+/* Pokémon's Color of Types */
 .page-list {
   padding: calc(1vw + 1rem);
   display: grid;
+  grid-gap: calc(1vw + 1rem);
   grid-auto-flow: row;
   justify-content: stretch;
+}
+.page-list .page-status-container {
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: start;
+  justify-items: start;
+  grid-gap: calc(.5vw + .5rem);
+}
+@media screen and (max-width: 768px) {
+  .page-list .page-status-container {
+    grid-auto-flow: row;
+    grid-template-columns: repeat(auto-fit, 100%);
+  }
+  .page-list .page-status-container > *:not(:first-child) {
+    justify-self: center;
+  }
 }
 .page-list .pokemons-list {
   display: grid;
@@ -14,7 +33,6 @@
   justify-content: center;
   grid-gap: calc(16px);
   list-style: none;
-  padding: calc(1vw + 1rem) 0;
 }
 .page-list .pokemons-list li {
   border: 3px solid black;
@@ -30,6 +48,7 @@
   width: calc(8vw + 20rem);
   height: calc(8vw + 20rem);
   transition: transform 0.2s;
+  display: flex;
 }
 .page-list .pokemons-list li .pokemon-data {
   position: absolute;

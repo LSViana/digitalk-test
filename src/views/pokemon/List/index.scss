@@ -3,15 +3,29 @@
 .page-list {
   padding: calc(1vw + 1rem);
   display: grid;
+  grid-gap: calc(1vw + 1rem);
   grid-auto-flow: row;
   justify-content: stretch;
+  .page-status-container {
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: start;
+    justify-items: start;
+    grid-gap: calc(.5vw + .5rem);
+    @media screen and (max-width: $breakpointMd) {
+      grid-auto-flow: row;
+      grid-template-columns: repeat(auto-fit, 100%);
+      & > *:not(:first-child) {
+        justify-self: center;
+      }
+    }
+  }
   .pokemons-list {
     display: grid;
     grid-template-columns: repeat(auto-fit, calc(8vw + 16rem));
     justify-content: center;
     grid-gap: calc(16px);
     list-style: none;
-    padding: calc(1vw + 1rem) 0;
     li {
       border: $xSmall solid black;
       background-color: white;
@@ -27,6 +41,7 @@
         width: calc(8vw + 20rem);
         height: calc(8vw + 20rem);
         transition: transform $timeShort;
+        display: flex;
       }
       .pokemon-data {
         position: absolute;

@@ -1,7 +1,7 @@
 @import '../../styles/bundle';
 
 .inflated-button {
-  border: $xSmall solid black;
+  border: calc(.075vw + .1rem) solid black;
   border-radius: 9999px;
   height: 100%;
   padding: 0 calc(1vw + 1rem);
@@ -11,6 +11,7 @@
   background-color: lightgrey;
   overflow: hidden;
   cursor: pointer;
+  min-height: calc(1.5vw + 1.5rem);
   &:active {
     .background-decoration {
       transform: translateY(0);

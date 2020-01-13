@@ -1,0 +1,96 @@
+@charset "UTF-8";
+/* Colors */
+/* Times */
+/* Screen breakpoints */
+/* Dimensions */
+/* Pokémon's Color of Types */
+.page-details {
+  padding: calc(1vw + 1rem);
+  display: grid;
+  grid-gap: calc(1vw + 1rem);
+  grid-auto-flow: row;
+  justify-content: stretch;
+}
+.page-details .page-status-container {
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: start;
+  justify-items: start;
+  grid-gap: calc(.5vw + .5rem);
+}
+@media screen and (max-width: 768px) {
+  .page-details .page-status-container {
+    grid-auto-flow: row;
+    grid-template-columns: repeat(auto-fit, 100%);
+  }
+  .page-details .page-status-container > *:not(:first-child) {
+    justify-self: center;
+  }
+}
+.page-details .pokemon-details {
+  display: grid;
+  grid-template-columns: calc(15vw + 15rem) 1fr;
+  grid-gap: calc(1vw + 1rem);
+  align-content: start;
+  justify-content: center;
+}
+@media screen and (max-width: 768px) {
+  .page-details .pokemon-details {
+    grid-template-columns: repeat(auto-fit, calc(15vw + 15rem));
+  }
+}
+.page-details .pokemon-details .pokemon-image {
+  background-color: white;
+  border: 3px solid black;
+  display: flex;
+  max-width: calc(15vw + 15rem);
+  max-height: calc(15vw + 15rem);
+  overflow: hidden;
+}
+.page-details .pokemon-details .pokemon-image img {
+  min-width: calc(100% + 3rem);
+  margin-left: -1.5rem;
+  object-fit: cover;
+}
+.page-details .pokemon-details .pokemon-details-list {
+  display: grid;
+  align-content: start;
+  justify-content: start;
+  grid-row-gap: calc(.5vw + .5rem);
+  grid-column-gap: calc(2vw + 2rem);
+}
+@media screen and (max-width: 768px) {
+  .page-details .pokemon-details .pokemon-details-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+.page-details .pokemon-details .pokemon-details-list div span {
+  opacity: 0.75;
+  font-size: calc(1vw + .5rem);
+}
+.page-details .pokemon-details .pokemon-details-list div h2, .page-details .pokemon-details .pokemon-details-list div p {
+  font-family: Staatliches, sans-serif;
+}
+.page-details .pokemon-details .pokemon-details-list div h2 {
+  font-size: calc(2vw + 2rem);
+  font-weight: lighter;
+}
+.page-details .pokemon-details .pokemon-details-list div p {
+  font-size: calc(1vw + 1rem);
+}
+.page-details .pokemon-details .pokemon-details-list .pokemon-types, .page-details .pokemon-details .pokemon-details-list .pokemon-name {
+  grid-column-end: span 2;
+}
+.page-details .pokemon-details .pokemon-details-list .pokemon-types {
+  display: grid;
+  grid-auto-flow: row;
+  grid-gap: calc(.25vw + .25rem);
+}
+.page-details .pokemon-details .pokemon-details-list .pokemon-types .pokemon-types-list {
+  display: grid;
+  grid-auto-flow: column;
+  grid-gap: calc(.5vw + .5rem);
+  justify-content: start;
+}
+
+/*# sourceMappingURL=index.css.map */

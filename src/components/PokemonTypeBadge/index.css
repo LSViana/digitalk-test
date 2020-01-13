@@ -1,10 +1,138 @@
+@charset "UTF-8";
+/* Colors */
+/* Times */
+/* Screen breakpoints */
+/* Dimensions */
+/* Pokémon's Color of Types */
 .pokemon-type-badge {
+  display: flex;
+  align-items: center;
   background-color: white;
   border-radius: 9999px;
   padding: calc(.25vw + .5rem) calc(.25vw + .75rem);
   color: black;
-  font-size: calc(.25vw + 1rem);
   /* TODO Create styles for all types */
+}
+.pokemon-type-badge.small p {
+  font-size: calc(.25vw + 1rem) !important;
+}
+.pokemon-type-badge p {
+  font-family: Roboto, sans-serif !important;
+  font-size: calc(1vw + 1rem) !important;
+  text-align: center;
+  margin-right: calc(.25vw + .25rem);
+}
+.pokemon-type-badge svg {
+  width: calc(.5vw + 1rem);
+  height: auto;
+}
+.pokemon-type-badge.bug {
+  color: #ccb54f;
+}
+.pokemon-type-badge.bug svg {
+  fill: #ccb54f;
+}
+.pokemon-type-badge.dark {
+  color: #000000;
+}
+.pokemon-type-badge.dark svg {
+  fill: #000000;
+}
+.pokemon-type-badge.dragon {
+  color: #db0000;
+}
+.pokemon-type-badge.dragon svg {
+  fill: #db0000;
+}
+.pokemon-type-badge.electric {
+  color: #ffa80a;
+}
+.pokemon-type-badge.electric svg {
+  fill: #ffa80a;
+}
+.pokemon-type-badge.fairy {
+  color: #d1b64c;
+}
+.pokemon-type-badge.fairy svg {
+  fill: #d1b64c;
+}
+.pokemon-type-badge.fighting {
+  color: #ff0000;
+}
+.pokemon-type-badge.fighting svg {
+  fill: #ff0000;
+}
+.pokemon-type-badge.fire {
+  color: #ff7e00;
+}
+.pokemon-type-badge.fire svg {
+  fill: #ff7e00;
+}
+.pokemon-type-badge.flying {
+  color: #009dff;
+}
+.pokemon-type-badge.flying svg {
+  fill: #009dff;
+}
+.pokemon-type-badge.ghost {
+  color: #6e77a8;
+}
+.pokemon-type-badge.ghost svg {
+  fill: #6e77a8;
+}
+.pokemon-type-badge.grass {
+  color: #4cb161;
+}
+.pokemon-type-badge.grass svg {
+  fill: #4cb161;
+}
+.pokemon-type-badge.ground {
+  color: #803928;
+}
+.pokemon-type-badge.ground svg {
+  fill: #803928;
+}
+.pokemon-type-badge.ice {
+  color: #527fa3;
+}
+.pokemon-type-badge.ice svg {
+  fill: #527fa3;
+}
+.pokemon-type-badge.normal {
+  color: #5e5e5e;
+}
+.pokemon-type-badge.normal svg {
+  fill: #5e5e5e;
+}
+.pokemon-type-badge.poison {
+  color: #ff3844;
+}
+.pokemon-type-badge.poison svg {
+  fill: #ff3844;
+}
+.pokemon-type-badge.psychic {
+  color: #7d4cff;
+}
+.pokemon-type-badge.psychic svg {
+  fill: #7d4cff;
+}
+.pokemon-type-badge.rock {
+  color: #999999;
+}
+.pokemon-type-badge.rock svg {
+  fill: #999999;
+}
+.pokemon-type-badge.steel {
+  color: #616161;
+}
+.pokemon-type-badge.steel svg {
+  fill: #616161;
+}
+.pokemon-type-badge.water {
+  color: #007aff;
+}
+.pokemon-type-badge.water svg {
+  fill: #007aff;
 }
 
 /*# sourceMappingURL=index.css.map */

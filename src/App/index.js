@@ -16,7 +16,7 @@ function App() {
             <PokedexLayout>
               <Switch>
                 <Route exact path='/' component={PokemonList} />
-                <Route path='/pokemon/:name' component={PokemonDetails} />
+                <Route path='/:name' component={PokemonDetails} />
                 <Route path='*'>
                   {/* TODO Create the not found page component */}
                   <h1>Page not found.</h1>

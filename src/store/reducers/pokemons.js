@@ -1,9 +1,18 @@
-import {ADD_POKEMON, ADD_POKEMONS, SELECT_POKEMON, UPDATE_SEARCH_POKEMON} from "../actionTypes";
+import {
+    ADD_POKEMON,
+    ADD_POKEMONS,
+    LOADING_POKEMON_SELECTED,
+    SELECT_POKEMON,
+    UPDATE_POKEMON,
+    UPDATE_SEARCH_POKEMON
+} from "../actionTypes";
 
 const initialState = {
-  list: [],
-  selectedPokemon: {},
-  query: '',
+    list: [],
+    loadingList: false,
+    selected: {},
+    loadingSelected: false,
+    query: '',
 };
 
 export default function(state = initialState, action) {
@@ -11,7 +20,7 @@ export default function(state = initialState, action) {
         case ADD_POKEMONS:
             return {
                 ...state,
-                list: action.pokemons
+                list: action.pokemons.slice().sort((x, y) => x.id - y.id),
             };
         case ADD_POKEMON:
             return {
@@ -19,17 +28,32 @@ export default function(state = initialState, action) {
                 list: [
                     ...state.list,
                     action.pokemon
-                ],
+                ].slice().sort((x, y) => x.id - y.id),
+            };
+        case UPDATE_POKEMON:
+            return {
+                ...state,
+                list: state.list.map(x => {
+                    if(x.id === action.pokemon.id) {
+                        return action.pokemon
+                    }
+                    return x;
+                }),
             };
         case SELECT_POKEMON:
             return {
                 ...state,
-                selectedPokemon: state.list.filter(x => x.id === action.id)[0] || {}
+                selected: state.list.filter(x => x.id === action.id)[0] || {}
             };
         case UPDATE_SEARCH_POKEMON:
             return {
                 ...state,
                 query: action.query
+            };
+        case LOADING_POKEMON_SELECTED:
+            return {
+                ...state,
+                loadingSelected: action.loading,
             };
         default:
             return state;

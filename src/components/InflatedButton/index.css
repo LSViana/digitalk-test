@@ -1,9 +1,11 @@
+@charset "UTF-8";
 /* Colors */
 /* Times */
 /* Screen breakpoints */
 /* Dimensions */
+/* Pokémon's Color of Types */
 .inflated-button {
-  border: 3px solid black;
+  border: calc(.075vw + .1rem) solid black;
   border-radius: 9999px;
   height: 100%;
   padding: 0 calc(1vw + 1rem);
@@ -13,6 +15,7 @@
   background-color: lightgrey;
   overflow: hidden;
   cursor: pointer;
+  min-height: calc(1.5vw + 1.5rem);
 }
 .inflated-button:active .background-decoration {
   transform: translateY(0);

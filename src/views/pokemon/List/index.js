@@ -18,7 +18,7 @@ class PokemonList extends React.Component {
     };
 
     componentDidMount() {
-        if(this.props.pokemons.list.length === 0) {
+        if(!this.props.pokemons.loadingList) {
             fetchPokemonSpecies(fetchPokemons);
         }
     }
@@ -31,7 +31,7 @@ class PokemonList extends React.Component {
             this.props.pokemons.list;
         const pokemonElements = filteredPokemons.map(x => (
             <li key={x.id}>
-                <Link to={`/pokemon/${x.name}`}>
+                <Link to={`/${x.name}`}>
                     <img className='pokemon-image' src={`${ImageAPIRoot}${x.id}.png`} alt={x.name}/>
                     <div className='pokemon-data'>
                         <div className="pokemon-name">
@@ -40,7 +40,7 @@ class PokemonList extends React.Component {
                         </div>
                         <div className="pokemon-types">
                             {x.types.map(y => y.name).map(name => (
-                                <PokemonTypeBadge key={name} name={name}/>
+                                <PokemonTypeBadge key={name} name={name} small />
                             ))}
                         </div>
                     </div>
@@ -49,7 +49,7 @@ class PokemonList extends React.Component {
         ));
         return (
             <div className='page-list'>
-                <div className='page-status'>
+                <div className='page-status-container'>
                     <PageStatus text={pokemonQuery.length === 0 ? 'All Pokémons' : `Filtering by "${pokemonQuery}"`} className={[ pokemonQuery.length === 0 ? 'blue' : 'green' ]} />
                     {pokemonQuery.length > 0 && (
                         <InflatedButton onClick={this.clearSearchFilter}>
@@ -71,6 +71,7 @@ class PokemonList extends React.Component {
 
 const mapStateToProps = state => ({
     pokemons: state.pokemons,
+    pokemonsSpecies: state.pokemonsSpecies,
 });
 
 export default connect(mapStateToProps)(PokemonList);
