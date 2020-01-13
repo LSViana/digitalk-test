@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e852e206644bf8db27e135d271e3c986",
+    "revision": "911dbf7013a70ab9dacd7e0a9b44c521",
     "url": "/digitalk-test/index.html"
   },
   {
-    "revision": "60980c650fc95a680f90",
-    "url": "/digitalk-test/static/css/main.55e0e062.chunk.css"
+    "revision": "708c862847538385aa77",
+    "url": "/digitalk-test/static/css/main.fc7762f9.chunk.css"
   },
   {
-    "revision": "127753848d866eb9ff2a",
-    "url": "/digitalk-test/static/js/2.653e68ee.chunk.js"
+    "revision": "5df728c7e1e2a0dd01bf",
+    "url": "/digitalk-test/static/js/2.5d3270f9.chunk.js"
   },
   {
     "revision": "e6ff33bd71c9fe5f55528ac2d613cee5",
-    "url": "/digitalk-test/static/js/2.653e68ee.chunk.js.LICENSE"
+    "url": "/digitalk-test/static/js/2.5d3270f9.chunk.js.LICENSE"
   },
   {
-    "revision": "60980c650fc95a680f90",
-    "url": "/digitalk-test/static/js/main.0127de01.chunk.js"
+    "revision": "708c862847538385aa77",
+    "url": "/digitalk-test/static/js/main.95a3fa1f.chunk.js"
   },
   {
     "revision": "2410dde0919c0ec057f0",
