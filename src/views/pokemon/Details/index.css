@@ -41,7 +41,7 @@
 }
 .page-details .pokemon-details .pokemon-image {
   background-color: white;
-  border: 3px solid black;
+  border: calc(.075vw + .1rem) solid black;
   display: flex;
   max-width: calc(15vw + 15rem);
   max-height: calc(15vw + 15rem);

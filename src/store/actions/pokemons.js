@@ -30,10 +30,12 @@ async function pokemonFetchDetails(pokemon) {
     const formattedName = dataSpecies.names.filter(x => x.language.name === 'en')[0].name;
     let chain = dataEvolutionChain.chain;
     while (chain != null && chain.species.name !== name) {
-        chain = chain.evolves_to[0];
+        chain = chain.evolves_to.filter(x => {
+            return x.species.name === name;
+        })[0];
     }
     // Step once more to get the evolution data about this Pokémon
-    chain = chain.evolves_to[0];
+    chain = chain ? chain.evolves_to[0] : null;
     const evolvesTo = chain != null ? chain.species : null;
     // Saving the data fetched
     pokemon.formattedName = formattedName;

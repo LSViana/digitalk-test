@@ -7,7 +7,7 @@ import BackgroundDecorationLine from '../../assets/vectors/background-decoration
 import PokeballSolidBlack from '../../assets/vectors/pokeball-solid-black.svg';
 import SearchInput from "../../components/SearchInput";
 import './index.scss';
-import {Link} from "react-router-dom";
+import {Link, withRouter} from "react-router-dom";
 import {connect} from "react-redux";
 import {updateSearch} from "../../store/actions/pokemons";
 
@@ -15,6 +15,18 @@ class PokedexLayout extends React.Component {
     state = {
         pokemonQuery: ''
     };
+
+    shouldComponentUpdate(nextProps, nextState, nextContext) {
+        // This code could be changed to a second seachProperty
+        // that's not used to actually filter, but in the midtime when user is typing
+        if(this.props.pokemonQuery !== nextProps.pokemonQuery) {
+            this.setState({
+                pokemonQuery: nextProps.pokemonQuery
+            });
+        }
+        // Same as React default implementation
+        return true;
+    }
 
     render() {
         return (
@@ -55,6 +67,7 @@ class PokedexLayout extends React.Component {
 
     onSearchTextChange = (e) => {
         const pokemonQuery = e.target.value;
+        // Updating state
         this.setState({
             pokemonQuery,
         });
@@ -69,5 +82,5 @@ const mapStateToProps = state => ({
     pokemonQuery: state.pokemons.query
 });
 
-export default connect(mapStateToProps)(PokedexLayout);
+export default withRouter(connect(mapStateToProps)(PokedexLayout));
 

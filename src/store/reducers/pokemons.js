@@ -1,6 +1,6 @@
 import {
     ADD_POKEMON,
-    ADD_POKEMONS,
+    ADD_POKEMONS, LOADING_POKEMON_LIST,
     LOADING_POKEMON_SELECTED,
     SELECT_POKEMON,
     UPDATE_POKEMON,
@@ -54,6 +54,11 @@ export default function(state = initialState, action) {
             return {
                 ...state,
                 loadingSelected: action.loading,
+            };
+        case LOADING_POKEMON_LIST:
+            return {
+                ...state,
+                loadingList: action.loading,
             };
         default:
             return state;

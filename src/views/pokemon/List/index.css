@@ -16,6 +16,7 @@
   grid-auto-flow: column;
   justify-content: start;
   justify-items: start;
+  align-items: center;
   grid-gap: calc(.5vw + .5rem);
 }
 @media screen and (max-width: 768px) {
@@ -27,6 +28,9 @@
     justify-self: center;
   }
 }
+.page-list .page-status-container .loading-pokemons {
+  font-size: calc(.5vw + .75rem);
+}
 .page-list .pokemons-list {
   display: grid;
   grid-template-columns: repeat(auto-fit, calc(8vw + 16rem));
@@ -35,7 +39,7 @@
   list-style: none;
 }
 .page-list .pokemons-list li {
-  border: 3px solid black;
+  border: calc(.075vw + .1rem) solid black;
   background-color: white;
   border-radius: 2px;
   overflow: hidden;
@@ -49,6 +53,7 @@
   height: calc(8vw + 20rem);
   transition: transform 0.2s;
   display: flex;
+  margin-left: -2rem;
 }
 .page-list .pokemons-list li .pokemon-data {
   position: absolute;

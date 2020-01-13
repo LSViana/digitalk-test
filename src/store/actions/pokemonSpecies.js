@@ -30,11 +30,6 @@ export function fetchPokemonSpecies(onFinish = () => {}) {
         } catch (e) {
             // TODO Add error handler
             throw e;
-        } finally {
-            dispatch({
-                type: LOADING_POKEMON_LIST,
-                loading: false
-            });
         }
     });
 }
